@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: lightyellow;
+    
     color: darkslategrey;
 }
 .navbar{
@@ -36,11 +36,29 @@ background: rgb(0, 0, 0,0.5) ;
     color: white;
     margin-bottom: 3px;
 }
+.cards{
+    height: 480px;
+    }
+.cards div{
+        background:  rgb(0, 0, 0,0.5);
+    }
+.card1{
+    background: url(../images/home/art.png) no-repeat center;
+    background-size: cover;
+}
+.card2{
+    background: url(../images/home/culture1.jpg) no-repeat center;
+    background-size: cover;
+}
+.card3{
+    background: url(../images/home/knowledge1.jpg) no-repeat center;
+    background-size: cover;
+}
 hr{
     border-color: teal;
 }
 footer{
-    background: #38c525;
+    background-image: linear-gradient(to bottom,rgb(78, 194, 116),#38c525);
     color: white;
 }
 footer p{

@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background: limegreen;
+    
+    background-image: linear-gradient(to right,lime,limegreen);
 }
 .nav-link{
     color: white;
@@ -16,8 +17,10 @@ body{
     border-color: lightgray;
 }
 .row{
-    margin-top: 150px;
-    
+    margin-top: 30px;
+}
+td{
+    color: white;
 }
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -36,7 +39,7 @@ form input{
     outline: none;
 }
 form input:hover{
-    background: rgb(74, 236, 96);
+    background: lightgreen;
     
     
 }
@@ -45,23 +48,22 @@ form input:hover{
 }
 
 form input:focus{
-    width: 70%;
+    width: 60%;
 }
 .area{
-    border: 3px solid white;
-    border-radius: 20px;
+    background: rgba(83, 230, 132, 0.4);
     padding-bottom: 10px;
 }
 .btn-circle{
     border: 2px solid white;
     border-radius: 20px;
-    color: lime;
+    color: green;
     background: white;
     width: 100px;
 }
 .btn-circle:hover{
     border: 2px solid white;
-    background: limegreen;
+    background: green;
     color: white;
 }
 
