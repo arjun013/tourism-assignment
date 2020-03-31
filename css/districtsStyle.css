@@ -3,13 +3,12 @@
     padding: 0;
 }
 body{
-    background-image: url(../images/district/keralawall.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    
+    background-image: linear-gradient(to right,rgb(26, 139, 184),lightblue);
 }
-.navbar{
+/* .navbar{
     background: rgb(0, 0, 0,.5);
-}
+} */
 .nav{
     background: rgb(0, 0, 0,0);
 }
@@ -25,13 +24,13 @@ body{
     border-color: lightgray;
 }
 .row1{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .area{
     border: 2px solid white;
     border-radius: 10px;
     height: 400px;
-    margin: 20px 40px 20px 40px;
+    margin: 20px 40px 20px 20px;
 }
 
 .area h2 {
@@ -43,13 +42,14 @@ body{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     border: 2px solid white;
+    
 }
 .area:hover{
-    opacity: .9;
+    opacity: .8;
 }
 .area:hover h2{
-    border: 2px solid brown;
-    color: brown;
+    border: 2px solid #0e76a8;
+    color: #0e76a8;
 }
 
 .area1{
@@ -114,4 +114,8 @@ body{
 .area14{
     background-image: url(../images/district/kzdhome.jpg);
     background-size: cover;  
+}
+footer{
+    background: #0e76a8;
+    color: white;
 }
