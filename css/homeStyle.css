@@ -24,6 +24,25 @@ background: rgb(0, 0, 0,0.5) ;
     color: lightgray;
     border-color: lightgray;
 }
+.slider{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    max-width: 60%;
+}
+.slider h5{
+    color: white;    
+    animation: 10s slide-right 1s forwards infinite;
+    transform:translateX(-100%);
+}
+@keyframes slide-right {
+  to {
+    transform:translateX(100%);
+  }
+}
+
 .carousel-inner img{
     height: 100%;
     width: 100%;
